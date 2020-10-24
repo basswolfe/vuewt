@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@vue/composition-api": "^1.0.0-beta.18",
     "core-js": "^3.6.5",
     "firebase": "^7.24.0",
     "vue": "^2.6.11",
@@ -45,7 +46,8 @@
   },
   "prettier": {
     "singleQuote": true,
-    "tabWidth": 2
+    "tabWidth": 2,
+    "semi": false
   },
   "browserslist": [
     "> 1%",
