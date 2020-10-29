@@ -7,7 +7,7 @@
       <h3>Create Account</h3>
       <a href="#" @click="newUser = false">Returning User?</a>
     </div>
-    <div v-else>
+    <div v-else class="login-type">
       <h3>Sign In</h3>
       <a href="#" @click="newUser = true">Create an Account</a>
     </div>

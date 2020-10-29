@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import { auth } from '../firebase';
-import { ref } from '@vue/composition-api';
+import { auth } from '../firebase'
+import { ref } from '@vue/composition-api'
 
 export default {
   setup() {
